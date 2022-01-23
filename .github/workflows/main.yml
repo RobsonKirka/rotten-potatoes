@@ -20,6 +20,6 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            robsonkirka/rotten-potatoes:lastest
-            robsonkirka/rotten-potatoes:${{ github.run_number }}
+            robsonkirka/rotten-potatoes:latest
+            robsonkirka/rotten-potatoes:v${{ github.run_number }}
             
